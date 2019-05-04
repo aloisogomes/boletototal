@@ -1,10 +1,17 @@
 {
+
     "name": "aloisogomes/boletototal",
     "type": "library",
     "description": "Projeto para emissão de boletos, geração de arquivos de remessa e recepção de arquivos de retorno",
     "keywords": [
         "Boleto","PHP","Remessa","Retorno","Emissao"
     ],
+    "repositories": [
+    {
+        "type": "library",
+        "url": "https://github.com/aloisogomes/boletototal"
+    }
+],
     "authors": [
         {
             "name": "Aloiso Gomes",
@@ -14,7 +21,6 @@
     "support": {
         "issues": "https://github.com/aloisogomes/boletototal/issues"
     },
-    "minimum-stability":"dev",
     "require": {
         "php": ">=5.3.0"
 
