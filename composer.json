@@ -21,7 +21,7 @@
     },
     "require-dev":{
         "cobregratis/boletophp":"dev-2.x-dev"
-    }
+    },
     "autoload": {
         "psr-4": {
             "BoletoTotal\\": "src/BoletoTotal/"
