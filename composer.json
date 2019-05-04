@@ -1,4 +1,10 @@
 {
+    "name": "aloisogomes/boletototal",
+    "type": "project",
+    "description": "Projeto para emissão de boletos, geração de arquivos de remessa e recepção de arquivos de retorno",
+    "keywords": [
+        "Boleto","PHP","Remessa","Retorno","Emissao"
+    ],
     "authors": [
         {
             "name": "Aloiso Gomes",
