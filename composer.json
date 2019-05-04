@@ -10,9 +10,7 @@
             "name": "Aloiso Gomes",
             "email": "aloiso.gomes@gmail.com"
         }
-    ],
-    "support": {
-    "minimum-stability": "dev",
+    ],    
     "require": {
         "php": ">=5.3.0",
         "cobregratis/boletophp":"dev-2.x-dev"
