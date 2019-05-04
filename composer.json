@@ -2,7 +2,8 @@
     "name": "aloiso/boletototal",
     "type": "library",
     "require": {
-        "cobregratis/boletophp": "dev-2.x-dev"
+        "cobregratis/boletophp": "dev-2.x-dev",
+        "aloisogomes/boletototal": "^1.0"
     },
     "authors": [
         {
