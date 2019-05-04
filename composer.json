@@ -12,8 +12,8 @@
         "cobregratis/boletophp":"dev-2.x-dev"
     },
     "autoload": {
-        "psr-0": {
-            "BoletoTotal\\": "src/"
+        "psr-4": {
+            "BoletoTotal\\": "src/BoletoTotal/"
         }
     },
     "config": {
