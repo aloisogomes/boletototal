@@ -1,9 +1,4 @@
 {
-    "name": "aloisogomes/boletototal",
-    "description": "Emissão de boletos registrados, geração de arquivos de remessa e recepção de arquivos de retorno.",
-    "keywords": ["Boleto", "PHP", "Boleto Registrado", "Arquivo de remessa", "Arquivo de retorno"],
-    "type": "library",
-    "license": "GNU-3.0",
     "authors": [
         {
             "name": "Aloiso Gomes",
@@ -11,12 +6,10 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/aloisogomes/boletototal/issues"
-    },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
-        "ext-mbstring": "*",
-        "ext-zlib": "*"
+        "cobregratis/boletophp":"dev-2.x-dev"
     },
     "autoload": {
         "psr-0": {
