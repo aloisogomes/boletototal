@@ -11,6 +11,6 @@
         }
     ],
     "require": {
-        "aloisogomes/boletototal": "^1.0"
+        "aloisogomes/boletototal": "^1.0.0"
     }
 }
