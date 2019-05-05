@@ -10,5 +10,7 @@
             "email": "aloiso.gomes@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "aloisogomes/boletototal": "^1.0"
+    }
 }
