@@ -1,14 +1,14 @@
 {
     "name": "aloiso/boletototal",
     "type": "library",
-    "require": {
-        "cobregratis/boletophp": "dev-2.x-dev",
-        "aloisogomes/boletototal": "^1.0"
+    "require-dev": {
+        "cobregratis/boletophp": "dev-2.x-dev"
     },
     "authors": [
         {
             "name": "Aloiso Gomes",
             "email": "aloiso.gomes@gmail.com"
         }
-    ]
+    ],
+    "require": {}
 }
