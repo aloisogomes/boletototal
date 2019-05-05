@@ -4,9 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d8da2d927dfe5744f1108852d9eb2b55",
-    "content-hash": "dd75debc4b900627eace1580ad8006aa",
+    "hash": "89d7a103cc72a2cd226c6e0c99ceb3bf",
+    "content-hash": "9b4e33fd40305967923452f4c4bca4cb",
     "packages": [
+        {
+            "name": "aloisogomes/boletototal",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aloisogomes/boletototal.git",
+                "reference": "89fc0662e1f6deee7f98a59159c0f5ea6a4306a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aloisogomes/boletototal/zipball/89fc0662e1f6deee7f98a59159c0f5ea6a4306a7",
+                "reference": "89fc0662e1f6deee7f98a59159c0f5ea6a4306a7",
+                "shasum": ""
+            },
+            "require": {
+                "cobregratis/boletophp": "dev-2.x-dev",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BoletoTotal\\": "src/BoletoTotal/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Aloiso Gomes",
+                    "email": "aloiso.gomes@gmail.com"
+                }
+            ],
+            "description": "Projeto para emissão de boletos, geração de arquivos de remessa e recepção de arquivos de retorno",
+            "keywords": [
+                "Emissao",
+                "boleto",
+                "php",
+                "remessa",
+                "retorno"
+            ],
+            "time": "2019-05-04 22:49:32"
+        },
         {
             "name": "cobregratis/boletophp",
             "version": "dev-2.x-dev",
@@ -42,7 +83,7 @@
         },
         {
             "name": "respect/validation",
-            "version": "1.1.x-dev",
+            "version": "1.1.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Respect/Validation.git",
@@ -105,7 +146,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -165,14 +206,12 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "cobregratis/boletophp": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.3.0"
-    },
+    "platform": [],
     "platform-dev": []
 }
